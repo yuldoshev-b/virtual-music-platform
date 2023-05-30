@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual music | Platform</title>
+    <!-- link's -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="image/music-logo.svg" type="image/x-icon" />
+  </head>
+  <body disable>
+    <div class="container">
+      <!-- menu bar -->
+      <div class="container-left">
+        <button onclick="openElements1()" class="btns btns-1">
+          <a class="icons icons-music" href="#music"
+            ><img src="image/icons/music-note.svg" alt="music"
+          /></a>
+        </button>
+        <button onclick="openElements2()" class="btns btns-2">
+          <a class="icons icons-fire" href="#fire-music"
+            ><img src="image/icons/fire.svg" alt="fire"
+          /></a>
+        </button>
+        <button onclick="openElements3()" class="btns btns-3">
+          <a class="icons icons-heart" href="#like"
+            ><img src="image/icons/heart.svg" alt="like"
+          /></a>
+        </button>
+        <button onclick="openElements4()" class="btns btns-4">
+          <a class="icons icons-search" href="#search"
+            ><img src="image/icons/search.svg" alt="search"
+          /></a>
+        </button>
+        <button onclick="openElements5()" class="btns btns-5">
+          <a class="icons icons-gear" href="#setting"
+            ><img src="image/icons/gear.svg" alt="setting"
+          /></a>
+        </button>
+      </div>
+      <!-- menu bar -->
+      <div class="container-right">
+        <header class="header">
+          <button class="version"><a href="#">New in v1.0</a></button>
+          <p class="button-text">Stay with us to Listen to New Music</p>
+        </header>
+        <div class="content">
+          <img class="music-logo" src="image/music-logo.svg" alt="music-note" />
+          <h1 class="content-title">
+            Welcome to the
+            <br />
+            Virtual music | Platform
+          </h1>
+          <p class="content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+        <footer class="footer">
+          <button class="back-home">
+            <img src="image/icons/x-diamond-fill.svg" alt="button-img" />
+            <a href="#">Back to home</a>
+          </button>
+          <button class="started">
+            <img src="image/icons/balloon-fill.svg" alt="button-img" />
+            <a href="#">Get started</a>
+          </button>
+        </footer>
+      </div>
+      <!-- clicked icons-music open -->
+      <div class="container-right1">
+        <header class="header2">
+          <div class="user-avatar">
+            <img
+              src="image/user-avatar-removebg-preview.png"
+              alt="user-avatar"
+            />
+          </div>
+          <p class="data-time"><span>Mon. 21:50</span></p>
+          <a class="icons icons-wifi" href="#"
+            ><img src="image/icons/wifi.svg" alt="icons-wifi"
+          /></a>
+          <a class="icons icons-cloud" href="#"
+            ><img src="image/icons/cloudy.svg" alt="icons-cloud"
+          /></a>
+        </header>
+        <div class="content2">
+          <div class="play-music">
+            <img
+              class="music-bg"
+              src="image/music-photo/img1.jpg"
+              alt="music-photo"
+            />
+            <img
+              onclick="playAudio()"
+              id="play"
+              class="play"
+              src="image/icons/play.svg"
+              alt="play"
+            />
+            <img
+              onclick="pauseAudio()"
+              id="pause"
+              class="pause"
+              src="image/icons/pause-fill.svg"
+              alt="pause"
+            />
+            <audio id="myAudio">
+              <source src="media/Headlights.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+          <div class="music-texts">
+            <div class="time-div">
+              <p class="time time-minute">02</p>
+              <span class="time time-slash">/</span>
+              <p class="time time-second">12</p>
+            </div>
+            <div class="music-info">
+              <p class="music-name">Men Inaya Di</p>
+              <p class="music-word">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt tempora adipisci ipsam inventore, porro fugit qui
+                beatae consectetur odit possimus deleniti dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <footer class="footer2">
+          <div class="footer2-header">
+            <h1 class="title">Popular now</h1>
+            <img
+              class="title-icon"
+              src="image/icons/text-indent-right.svg"
+              alt=""
+            />
+          </div>
+          <div class="card">
+            <img src="image/music-photo/headlights.jpg" alt="music-photo" />
+            <p class="music-name-footer">Headlights</p>
+            <p class="music-author">Alok & Alan Walker</p>
+          </div>
+          <div class="card">
+            <img src="image/music-photo/img3.jpg" alt="music-photo" />
+            <p class="music-name-footer">Unet meni</p>
+            <p class="music-author">Uzeyir Mehdizade</p>
+          </div>
+          <div class="card">
+            <img src="image/music-photo/img4.jpg" alt="music-photo" />
+            <p class="music-name-footer">Takoy Lyoxkiy</p>
+            <p class="music-author">Timur Alixonov & Morf</p>
+          </div>
+          <div class="card">
+            <img src="image/music-photo/img5.png" alt="music-photo" />
+            <p class="music-name-footer">Sad</p>
+            <p class="music-author">Furkan Sert & Elnur Mikayilov</p>
+          </div>
+        </footer>
+      </div>
+
+      <div class="container-right2">
+        <h1>Container-right2</h1>
+      </div>
+
+      <div class="container-right3">
+        <h1>Container-right3</h1>
+      </div>
+
+      <div class="container-right4">
+        <h1>Container-right4</h1>
+      </div>
+
+      <div class="container-right5">
+        <header class="right5-header">
+          <h1 class="header-title">Choose Backgraund</h1>
+        </header>
+        <div class="cardug">
+          <img class="card-bg select" src="image/bg/img4.jpg" alt="bg-img" />
+        </div>
+        <div class="cardug">
+          <img class="card-bg" src="image/bg/img2.png" alt="bg-img" />
+        </div>
+        <div class="cardug">
+          <img
+            class="card-bg"
+            src="image/bg/img3.jpg"
+            alt="bg-img"
+          />
+        </div>
+        <div class="cardug">
+          <img class="card-bg" src="image/bg/img1.png" alt="bg-img" />
+        </div>
+        <div class="cardug">
+          <img
+            class="card-bg"
+            src="image/bg/img5.JPG"
+            alt="bg-img"
+          />
+        </div>
+
+        <div for="inp" class="cardug card-6">
+          <label for="input-file">
+            <img id="profile-pic" src="image/icons/plus-circle-dotted.svg" />
+          <!-- <img src="image/icons/upload-photo.png" id="profile-pic"> -->
+          </label>
+          <input type="file" accept="image/png, image/jpg, image/jpeg, image/webp" id="input-file"/>
+        </div>
+      </div>
+    </div>
+    <script src="script/index.js"></script>
+  </body>
+</html>

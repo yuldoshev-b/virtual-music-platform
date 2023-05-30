@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Come-Black';
+    src: url('../font/Comme/static/Comme-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Come-Bold';
+    src: url('../font/Comme/static/Comme-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Come-ExtraBold';
+    src: url('../font/Comme/static/Comme-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Come-ExtraLight';
+    src: url('../font/Comme/static/Comme-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Come-Light';
+    src: url('../font/Comme/static/Comme-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Come-Medium';
+    src: url('../font/Comme/static/Comme-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Come-Regular';
+    src: url('../font/Comme/static/Comme-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Come-SemiBold';
+    src: url('../font/Comme/static/Comme-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Come-Thin';
+    src: url('../font/Comme/static/Comme-Thin.ttf');
+}
+
+/* Ubuntu */
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url('../font/Ubuntu/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('../font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+/* Roboto-Mono */
+
+@font-face {
+    font-family: 'Roboto-Mono-Medium';
+    src: url('../font/Roboto_Mono/static/RobotoMono-Medium.ttf');
+}
