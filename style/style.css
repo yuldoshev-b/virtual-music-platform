@@ -647,7 +647,7 @@ body {
   height: 130px;
 
   margin-left: 25px;
-  margin-top: 30px;	
+  margin-top: 20px;	
 
 	cursor: pointer;
   /*border: var(--br);*/
@@ -668,13 +668,17 @@ body {
   border-radius: 12px;
 }
 
-.select {
+.card-6:hover {
+	background: rgba(255, 255, 255, 0.21);
+
+}
+
+.cardug:hover{
   border: 3px solid rgba(255, 255, 255, 0.757);
-  border-radius: 12px;
 }
 
 #profile-pic {
-  margin-top: 30px;
+  margin-top: 5px;
   margin-left: 80px;
 }
 
@@ -689,4 +693,17 @@ body {
   margin-top: 0;
 }
 
+/* pro */
+
+.pro {
+	font-family:'Font-Awesome';
+	font-weight: 900;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	/*color: #ffc947;*/
+	color: #ffc947;
+  text-shadow: 0px 0px 10px  #ffc947;
+
+}
 /* Container-Right5 */

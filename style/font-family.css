@@ -61,3 +61,9 @@
     font-family: 'Roboto-Mono-Medium';
     src: url('../font/Roboto_Mono/static/RobotoMono-Medium.ttf');
 }
+
+/* Font Awesome Font 6 */
+@font-face {
+	font-family: 'Font-Awesome';
+	src: url('../font/Font Awesome 6 Pro Solid/Font\ Awesome\ 6\ Pro\ Solid.ttf');
+}

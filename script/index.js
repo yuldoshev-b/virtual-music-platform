@@ -204,3 +204,28 @@ inputFile.onchange = function(){
   profilePic.src = URL.createObjectURL(inputFile.files[0]);
   profilePic.style = "margin-left: 0; margin-top:0;"
 }
+
+
+function chooseImg1() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img4.jpg)";
+}
+
+function chooseImg2() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img2.png)";
+}
+
+function chooseImg3() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img3.jpg)";
+}
+
+function chooseImg4() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img1.png)";
+}
+
+function chooseImg5() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img9.PNG)";
+}
+
+function chooseImg6() {
+	document.querySelector("body").style.backgroundImage = "url(../../../image/bg/img6.jpg)";
+}
